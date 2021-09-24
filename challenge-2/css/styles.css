@@ -1,0 +1,129 @@
+/*
+Colores
+  Tarjetas
+    Red: hsl(0, 78%, 62%)
+    Cyan: hsl(180, 62%, 55%)
+    Orange: hsl(34, 97%, 64%)
+    Blue: hsl(212, 86%, 64%)
+  Sombra
+    Dark Blue: hsl(240, 25%, 50%) al 20% de opacidad;
+  Texto
+    Grey: hsl(229, 6%, 66%)
+  Fondo de la tarjeta y del background
+    White: hsl(0, 0%, 93%)
+
+Fuente de la página
+  https://fonts.google.com/specimen/Poppins
+  Estilos 200, 400 y 600
+*/
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: hsl(0, 0%, 93%);
+    /* font-family: sans-serif; */
+    font-family: 'Poppins', sans-serif;
+}
+
+.page-header {
+    position: relative;
+    text-align: center;
+    width: 550px;
+    left: 450px;
+}
+
+.text__title {
+    font-size: 2.3rem;
+    margin: 5px 0;
+}
+
+.text__title--ligth {
+    font-weight: 200;
+}
+
+.text__title--bold {
+    font-weight: 600;
+}
+
+.text {
+    color: hsl(229, 6%, 66%);
+    font-weight: 200;
+}
+
+.card {
+    position: relative;
+    width: 350px;
+    height: 220px;
+    box-shadow: 5px 10px 10px hsl(240 25% 50% / 0.2);
+    border-radius: 8px;
+    margin: 20px 0;
+    overflow: hidden;
+}
+
+.card--1 {
+    top: 200px;
+    left: 100px;
+}
+
+.card--2 {
+    top: -210px;
+    left: 550px;
+}
+
+.card--3 {
+    top: -170px;
+    left: 550px;
+}
+
+.card--4 {
+    top: -520px;
+    left: 950px;
+}
+
+.card__header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.card__header--border__color1 {
+    border-top: 6px solid hsl(180, 62%, 55%);
+}
+
+.card__header--border__color2 {
+    border-top: 6px solid hsl(0, 78%, 62%);
+}
+
+.card__header--border__color3 {
+    border-top: 6px solid hsl(34, 97%, 64%);
+}
+
+.card__header--border__color4 {
+    border-top: 6px solid hsl(212, 86%, 64%);
+}
+
+.card__text__title {
+    position: absolute;
+    left: 20px;
+    font-weight: 600;
+}
+
+.card__body {
+    position: absolute;
+    margin: 0 20px;
+    top: 40px;
+}
+
+.card__footer {
+    margin-top: 10px;
+    position: absolute;
+    top: 120px;
+}
+
+.card__icon {
+    position: absolute;
+    left: 250px;
+}

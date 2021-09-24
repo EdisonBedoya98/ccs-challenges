@@ -1,0 +1,88 @@
+/*
+  Color de fondo: hsl(185, 75%, 39%)
+  Color del texto gris: hsl(227, 10%, 46%)
+ */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: hsl(185, 75%, 39%);
+    margin: 0;
+    font-family: sans-serif;
+    color: hsl(227, 10%, 46%);
+}
+
+.top-circle {
+    width: 60%;
+    position: fixed;
+    top: -40vh;
+    left: -15vw;
+}
+
+.bottom-circle {
+    width: 60%;
+    position: fixed;
+    bottom: -40vh;
+    right: -15vw;
+}
+
+.card {
+    width: 25vw;
+    height: 45%;
+    background-color: #fff;
+    position: absolute;
+    top: 25vh;
+    left: 35vw;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.card-pattern {
+    height: 45%;
+    width: 100%;
+}
+
+.user-photo {
+    position: absolute;
+    width: 25%;
+    border-radius: 50%;
+    left: 35%;
+    top: 32%;
+    border: 0.2em solid #fff;
+    background-color: #fff;
+}
+
+.info-text-container {
+    /* background-color: turquoise; */
+    text-align: center;
+    margin-top: 12%;
+}
+
+p {
+    margin: 0;
+    font-size: 1.2vw;
+}
+
+span {
+    color: #000;
+}
+
+.card-footer {
+    position: absolute;
+    height: 25%;
+    width: 100%;
+    bottom: 0;
+    /* background-color: darkcyan; */
+    text-align: center;
+    border-top: 0.5px solid hsl(227, 10%, 46%, 0.2);
+}
+
+.footer-card-box {
+    display: inline-block;
+    /* background-color: red; */
+    margin-top: 5%;
+    width: 31%;
+    /* border: 3px solid #fff; */
+}

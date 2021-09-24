@@ -1,0 +1,100 @@
+/*
+Colores
+    Background: #333
+
+    Tarjetas
+        Orange: hsl(31, 77%, 52%)
+        Cyan: hsl(184, 100%, 22%)
+        Dark cyan: hsl(179, 100%, 13%)
+    
+    Texto
+        Blanco al 0.75 de opacidad
+
+Fuentes de la página
+    Títulos
+        https://fonts.google.com/specimen/Big+Shoulders+Display
+        Estilo 600
+    Textos
+        https://fonts.google.com/specimen/Lexend+Deca
+        Estilo 400
+*/
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #333;
+}
+
+.cards {
+    position: relative;
+    text-align: center;
+    /* margin: 150px auto; */
+    top: 150px;
+    text-align: center;
+    height: 400px;
+    font-size: 0;
+}
+
+.card {
+    position: relative;
+    display: inline-block;
+    width: 240px;
+    height: 100%;
+    padding: 20px;
+    color: hsl(0 0% 100% / 0.75);
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+.card__tittle {
+    text-align: left;
+    font-family: 'Big Shoulders Display', cursive;
+    font-weight: 600;
+    font-size: 2.5rem;
+}
+
+.card__text {
+    text-align: left;
+    font-weight: 400;
+    font-size: .8rem;
+}
+
+.card__button {
+    position: absolute;
+    bottom: 2em;
+    left: 2em;
+    border-radius: 20px;
+    border: 0;
+    height: 30px;
+    width: 120px;
+}
+
+.button-orange {
+    color: hsl(31, 77%, 52%);
+}
+
+.button-cyan {
+    color: hsl(179, 100%, 13%);
+}
+
+.button-dark {
+    color: hsl(184, 100%, 22%);
+}
+
+.card--left {
+    background-color: hsl(31, 77%, 52%);
+}
+
+.card--right {
+    background-color: hsl(179, 100%, 13%);
+}
+
+.card--center {
+    background-color: hsl(184, 100%, 22%);
+}
+
+.card__icon {
+    position: relative;
+    right: 70px;
+}

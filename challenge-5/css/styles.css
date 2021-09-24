@@ -1,0 +1,145 @@
+/*
+Colores
+  dark-purple: hsl(300, 43%, 22%)
+  pink:hsl(333, 80%, 67%)
+  purple: hsl(303, 10%, 53%)
+  soft-white: hsl(300, 24%, 96%)
+  background-color: hsl(0, 0%, 90%);
+
+Fuente de la página
+  https://fonts.google.com/specimen/Karla
+  Estilos 200 y 400
+*/
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: hsl(0, 0%, 90%);
+    font-family: 'Karla', sans-serif;
+    overflow: hidden;
+}
+
+.header {
+    position: relative;
+    top: 10rem;
+    left: 15rem;
+    width: 400px;
+    color: hsl(300, 43%, 22%);
+}
+
+.title {
+    font-size: 2.5rem;
+    font-family: 400;
+}
+
+.sub-tittle {
+    font-family: 200;
+}
+
+aside {
+    position: relative;
+    top: -3rem;
+    left: 70rem;
+    width: 800px;
+    height: 400px;
+}
+
+.rate {
+    width: 400px;
+    background-color: hsl(300, 24%, 96%);
+    display: inline-block;
+    padding: 10px 15px;
+    font-family: 200;
+}
+
+.rate-coment {
+    position: relative;
+    display: inline-block;
+    left: 10px;
+    font-family: 400;
+}
+
+.rate--two {
+    position: relative;
+    top: 1rem;
+    left: 5rem;
+}
+
+.rate--three {
+    position: relative;
+    top: 2rem;
+    left: 10rem;
+}
+
+.testimonial {
+    position: relative;
+    display: inline-block;
+    bottom: 10rem;
+    width: 400px;
+    height: 250px;
+    background-color: hsl(300, 43%, 22%);
+    color: #fff;
+    border-radius: 10px;
+}
+
+.testimonial--1 {
+    left: 15rem;
+}
+
+.testimonial--2 {
+    bottom: 7rem;
+    left: 20rem;
+}
+
+.start {
+    vertical-align: middle;
+    margin-right: 0.5rem;
+}
+
+.testimonial--3 {
+    bottom: 1rem;
+    left: 25rem;
+}
+
+.user {
+    position: absolute;
+    padding: 20px 40px;
+}
+
+.user__category {
+    color: hsl(333, 80%, 67%);
+}
+
+.user__image {
+    border-radius: 50%;
+}
+
+.user__container {
+    position: absolute;
+    width: 230px;
+    left: 8.5rem;
+    bottom: 1.3rem;
+    /* top: 10px; */
+}
+
+.testimonial__text {
+    position: absolute;
+    padding: 40px;
+    top: 4.3rem;
+}
+
+.bg-image {
+    position: absolute;
+}
+
+.bg-image--top {
+    top: 0;
+    left: 0;
+}
+
+.bg-image--bottom {
+    bottom: 0;
+    right: 0;
+}

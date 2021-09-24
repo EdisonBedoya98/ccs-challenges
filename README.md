@@ -1,1 +1,1 @@
-ccs-challenges
+css-challenges
